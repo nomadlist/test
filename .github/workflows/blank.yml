@@ -145,13 +145,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run a one-line script
         run: echo Hello, world!
-  build24:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Run a one-line script
-        run: echo Hello, world!
-
   build25:
     runs-on: ubuntu-latest
     steps:
